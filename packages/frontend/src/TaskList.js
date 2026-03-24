@@ -220,6 +220,17 @@ function TaskList({ onEdit }) {
                   }}
                 />
               )}
+              <Chip
+                label={task.priority || 'P3'}
+                size="small"
+                className={`priority-badge priority-${(task.priority || 'P3').toLowerCase()}`}
+                sx={{
+                  height: 20,
+                  fontSize: '0.7rem',
+                  fontWeight: 700,
+                  color: 'white',
+                }}
+              />
               <Box 
                 sx={{ 
                   display: 'flex', 

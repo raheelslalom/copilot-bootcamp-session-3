@@ -3,6 +3,7 @@ import { CssBaseline, Container, AppBar, Toolbar, Typography, Box } from '@mui/m
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import TaskList from './TaskList';
 import TaskForm from './TaskForm';
+import './App.css';
 
 function App() {
   const [editingTask, setEditingTask] = useState(null);

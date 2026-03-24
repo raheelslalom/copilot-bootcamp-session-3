@@ -92,3 +92,20 @@ li:last-child {
   color: #d32f2f;
   font-weight: bold;
 }
+
+/* Priority badge colors */
+.priority-badge {
+  border-radius: 4px;
+}
+
+.priority-p1 {
+  background-color: #f44336 !important; /* Red - High priority */
+}
+
+.priority-p2 {
+  background-color: #ff9800 !important; /* Orange - Medium priority */
+}
+
+.priority-p3 {
+  background-color: #9e9e9e !important; /* Gray - Low priority */
+}
