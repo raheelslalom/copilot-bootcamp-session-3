@@ -109,3 +109,12 @@ li:last-child {
 .priority-p3 {
   background-color: #9e9e9e !important; /* Gray - Low priority */
 }
+
+/* Priority selector: selected vs unselected item colors */
+.priority-option-selected {
+  color: #07F2E6 !important;
+}
+
+.priority-option-unselected {
+  color: #7A7A7A !important;
+}

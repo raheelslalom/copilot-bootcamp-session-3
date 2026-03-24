@@ -169,9 +169,9 @@ function TaskForm({ onSave, initialTask }) {
             }
           }}
         >
-          <MenuItem value="P1">P1 – High</MenuItem>
-          <MenuItem value="P2">P2 – Medium</MenuItem>
-          <MenuItem value="P3">P3 – Low</MenuItem>
+          <MenuItem value="P1" className={priority === 'P1' ? 'priority-option-selected' : 'priority-option-unselected'}>P1 – High</MenuItem>
+          <MenuItem value="P2" className={priority === 'P2' ? 'priority-option-selected' : 'priority-option-unselected'}>P2 – Medium</MenuItem>
+          <MenuItem value="P3" className={priority === 'P3' ? 'priority-option-selected' : 'priority-option-unselected'}>P3 – Low</MenuItem>
         </TextField>
         {error && <Typography color="error" sx={{ fontWeight: 500, fontSize: '0.875rem' }}>{error}</Typography>}
         <Box display="flex" gap={2}>
